@@ -136,9 +136,6 @@ transform:translateX(0%);
 .role{
   color:#0ef;
 }
-.godwin{
-  text-transform: capitalize;
-}
 .few{
   width:40%;
   color:white;
@@ -434,7 +431,6 @@ display:inline-block;
 }
 .projects{
   font-size: 20px;
-  text-transform: capitalize;
   font-weight: 700;
   cursor:pointer;
 display:flex;
@@ -455,6 +451,7 @@ display:flex;
 }
 .weather{
   padding-left:20px;
+  padding-right:20px;
   border-radius:10px;
   transition: 500ms;
   padding-top:15px;
@@ -485,6 +482,7 @@ display:flex;
 }
 .church{
   padding-left:20px;
+  padding-right:20px;
   border-radius:10px;
   padding-top:15px;
   padding-bottom:25px;
@@ -510,6 +508,7 @@ display:flex;
 }
 .fb-clone{
   padding-left:20px;
+  padding-right:20px;
   transition: 500ms;
   padding-top:15px;
   padding-bottom:25px;
@@ -979,6 +978,7 @@ textarea::placeholder{
   cursor:pointer;
   display:inline-block;
   padding-top:5px;
+  font-weight: bold;
 padding-bottom:5px;
 padding-left:1rem;
 transform:all 500ms ease;
@@ -1029,7 +1029,7 @@ padding-right:1rem;
     background:#0ef;
     border:2px solid #0ef;
     font-size:15px;
-    margin-left:8.9rem;
+    margin-left:8rem;
     transform:none;
     transition:none;
     box-shadow:none;
