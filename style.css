@@ -731,7 +731,14 @@ margin-left:40%;
   height:10px;
   border-radius: 20px;
 }
-.py_skill{
+.c_skill{
+  animation:python 4s forwards infinite;
+  width:0%;
+  background:#0ef;
+  height:10px;
+  border-radius: 20px;
+}
+.cpp_skill{
   animation:python 4s forwards infinite;
   width:0%;
   background:#0ef;
@@ -768,9 +775,14 @@ margin-left:40%;
     width:50%;
   }
 }
-@keyframes python{
+@keyframes c{
   to{
-    width:50%;
+    width:90%;
+  }
+}
+@keyframes cpp{
+  to{
+    width:95%;
   }
 }
 .communication_skill{
