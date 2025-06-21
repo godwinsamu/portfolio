@@ -732,14 +732,14 @@ margin-left:40%;
   border-radius: 20px;
 }
 .c_skill{
-  animation:python 4s forwards infinite;
+  animation:c 4s forwards infinite;
   width:0%;
   background:#0ef;
   height:10px;
   border-radius: 20px;
 }
 .cpp_skill{
-  animation:python 4s forwards infinite;
+  animation:cpp 4s forwards infinite;
   width:0%;
   background:#0ef;
   height:10px;
