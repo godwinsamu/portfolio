@@ -1,0 +1,296 @@
+/*              Body          */
+
+body {
+  background:#fff;
+  background-size: 400% 400%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  overflow-x: hidden !important;
+  flex-direction: column;
+  align-items: center;
+  color:  #212529;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.p{
+    overflow-x: hidden;
+}
+
+/*          Navbar        */
+
+
+
+.navbar {
+  background-color: #212529;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+ .nav-link:hover{
+    color:#e1306c;
+ }
+.navbar-brand:hover{
+    color:#e1306c !important;
+}
+.navbar-toggler{
+    color:white !important;
+    background-color: #fff;
+    border:none;
+    outline:none;
+}
+
+.social-icons i {
+  font-size: 24px;
+  margin: 10px;
+  transition: color 0.3s ease;
+}
+.social-icons .fa-linkedin { color: #0a66c2; }
+.social-icons .fa-github { color:  #212529; }
+
+
+#downloadBtn{
+    background:#0056b3;
+    color:#fff;
+}
+
+/*                  About             */
+
+section {
+  padding: 80px 20px;
+}
+
+
+.about-img img {
+  max-width: 70%;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  #about .row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+ 
+
+  .about-img img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .about-me {
+    margin-top: 20px;
+  }
+}
+
+/*              Skills            */
+
+.container h2{
+    color:#212529;
+}
+
+.progress {
+  height: 30px;
+  background-color:#212529;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  font-weight: bold;
+  background-color:#0056b3;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*           Awards            */
+
+
+
+#awards {
+  padding: 60px 0;
+}
+
+#awards h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color:#212529;
+}
+
+#awards .card {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  margin-bottom: 30px;
+  background-color: #0056b3;
+  color:#fff;
+}
+
+#awards .card:hover {
+  transform: translateY(-5px);
+}
+
+#awards .card-img-top {
+  height: 180px;
+  object-fit: fill;
+}
+
+#awards .card-body {
+  padding: 15px;
+}
+
+#awards .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+
+
+
+/*          Projects            */
+
+
+
+#projects {
+  padding: 60px 0;
+}
+#projects .row {
+  column-gap: 30px; /* horizontal gap */
+  row-gap: 30px;    /* vertical gap */
+}
+
+#projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color:#212529;
+}
+.project-card{
+    background:#0056b3;
+    color:#fff;
+}
+.project-card img {
+  height: 200px;
+  object-fit:fill;
+    background:#212529;
+  border-radius: 10px;
+}
+
+.project-card .btn {
+  margin-top: 10px;
+}
+
+/*          Contact       */
+
+
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* keep for flexibility */
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-details {
+  flex: 1;
+  min-width: 280px;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 40px; /* ✅ Add this to align vertically with form */
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 320px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-btn {
+  background-color:#0056b3!important;        /* Blue color */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  max-width: 200px;
+  margin-top: 10px;
+  align-self: flex-start;
+  display: inline-block;
+}
+
+.contact-btn:hover {
+  background-color: #0056b3;        /* Darker blue */
+  transform: translateY(-2px);
+}
+  .transparent-input {
+  background-color: transparent;
+  color: white;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  padding: 8px 14px;
+  max-width: 400px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+input:focus,
+textarea:focus {
+  background: transparent;
+  outline: none;
+}
+
+::placeholder {
+  color: #212529 !important;
+}
+.transparent-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  background: transparent;
+  border: 2px solid #0056b3;
+  border-radius: 8px;
+  color:#212529;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
+  }
+  .contact-form{
+    margin:auto !important;
+  }
+  .contact-details{
+    margin:auto !important;
+  }
+  
+}
